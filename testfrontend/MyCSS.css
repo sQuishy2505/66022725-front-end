@@ -13,20 +13,20 @@ body {
 }
  
 .box {
-    width: 1000px;
+    width: 2000px;
     text-align: center;
 }
  
 #header-box {
     height: 100px;
-    background-color: red;
+    background-color:pink;
     font-weight: bold;
     font-size:200%;
 }
  
 #nav-box {
     height: 50px;
-    background-color: pink;
+    background-color: gray;
     color: white;
     margin-top: 0px;
     font-size:110%;
@@ -34,20 +34,70 @@ body {
  
 #content-box {
     height: 550px;
-    background-color: gray;
-    color: white;
+    background-color:rgb(179, 169, 169);
+    color: rgb(161, 158, 158);
     margin-top: 0px;
     text-align: left;
     padding-left: 10px;
     border: 0px solid white;
     box-sizing: border-box;
+    flex-direction: row;
 }
  
 #footer-box {
     height: 50px;
-    background-color: rgb(184, 114, 224);
+    background-color: rgb(255, 255, 255);
     align-self: center;
     margin-top: 0px;
     font-weight: bold;
     font-size: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
 }
+
+.flex-container3{
+    display: flex;
+    width: 2000px;
+    background-color: rgb(204, 204, 135);
+}
+
+#flex-item5{
+    color:cornsilk;
+    background-color: green;
+    width: 666px;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px;
+    font-size: 20px;
+}
+#P{
+    align-items: center;
+    vertical-align: middle;
+    text-align: justify;
+}
+#flex-item6{
+    color:cornsilk;
+    background-color: rgb(212, 191, 0);
+    width: 666px;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px;
+    font-size: 20px;
+}
+#flex-item7{
+    color:cornsilk;
+    background-color: rgb(255, 23, 23);
+    width: 666px;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px;
+    font-size: 20px;
+}
+
